@@ -20,7 +20,7 @@ I like that it is free and you don't provide a credit card. It is quick and easy
 
 The original `values.yaml` was from [redis/stable](https://github.com/helm/charts/tree/master/stable/redis)
 
-[Download Helm 3](https://github.com/helm/helm/releases/tag/v3.0.0-beta.5)
+Download for [Helm 3](https://github.com/helm/helm/releases/tag/v3.0.0-beta.5)
 
 
 
