@@ -179,7 +179,7 @@ securityContext:
   #   value: "10000"
 
 ## Use password authentication
-usePassword: false
+usePassword: true
 ## Redis password (both master and slave)
 ## Defaults to a random 10-character alphanumeric string if not set and usePassword is true
 ## ref: https://github.com/bitnami/bitnami-docker-redis#setting-the-server-password-on-first-run
