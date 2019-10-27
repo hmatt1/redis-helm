@@ -20,7 +20,7 @@ jobs:
         echo "$SECRET_CONFIG" > /home/runner/config
         /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm repo add stable https://kubernetes-charts.storage.googleapis.com/
         /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm repo update
-        /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm upgrade --atomic --set password=${MY_PASSWORD} -f values.yaml redis-release stable/redis
+        /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm upgrade --atomic --set password=${MY_PASSWORD} -n $NAMESPACE -f values.yaml redis-release stable/redis
       env:
         KUBECONFIG: /home/runner/config
         NAMESPACE: ${{ secrets.KUBE_NAMESPACE }}  
