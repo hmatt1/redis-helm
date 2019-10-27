@@ -22,5 +22,4 @@ jobs:
       env:
         KUBECONFIG: /home/runner/config
         SECRET_CONFIG: ${{ secrets.KUBE_CONFIG }}
-        NAMESPACE: ${{ secrets.KUBE_NAMESPACE }}
         MY_PASSWORD: ${{ secrets.REDIS_PASSWORD }}
