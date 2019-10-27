@@ -12,6 +12,8 @@ Then you will need to set up 3 secrets: `REDIS_PASSWORD`, `KUBE_NAMESPACE` and `
 
 The `KUBE_CONFIG` should be a full copy of your `~/.kube/config`.
 
+Sign up for the [Github Actions](https://github.com/features/actions) beta and you should be good to go!
+
 ## If you don't have a Kubernetes environment
 
 I used the free tier from  [kuber.host](https://kuber.host/). I'm not affiliated with them. I found out about them from the list on [free-for-dev](https://github.com/ripienaar/free-for-dev)
