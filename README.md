@@ -26,4 +26,6 @@ The original `values.yaml` was from [redis/stable](https://github.com/helm/chart
 
 Download for [Helm 3](https://github.com/helm/helm/releases/tag/v3.0.0-beta.5)
 
+## Contributors
 
+Matt Hornung <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
