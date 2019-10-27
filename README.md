@@ -1,6 +1,6 @@
 # redis-helm
 
-This repo is designed to configure and deploy a single node Redis master to Kubernetes using [Helm 3](https://helm.sh/).
+Deploy a single node Redis master to Kubernetes using [Helm 3](https://helm.sh/).
 
 ## Configuring your own deployment
 
