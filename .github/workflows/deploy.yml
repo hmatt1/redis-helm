@@ -18,8 +18,6 @@ jobs:
     - name: Deploy to k8s
       run: | 
         echo "$SECRET_CONFIG" > /home/runner/config
-        kubectl config get-contexts
-        kubectl get po
         /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm repo add stable https://kubernetes-charts.storage.googleapis.com/
         /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm repo update
         /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm upgrade --atomic --set password=${MY_PASSWORD} -n $NAMESPACE -f values.yaml redis-release stable/redis
