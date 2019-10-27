@@ -1,5 +1,7 @@
 # redis-helm
 
+https://github.com/hmatt1/redis-helm/workflows/Redis%20CI/badge.svg
+
 Deploy a single node [Redis](https://redis.io/) master to [Kubernetes](https://kubernetes.io/) using [Helm 3](https://helm.sh/).
 
 ## Configuring your own deployment
@@ -21,7 +23,5 @@ I like that it is free and you don't provide a credit card. It is quick and easy
 The original `values.yaml` was from [redis/stable](https://github.com/helm/charts/tree/master/stable/redis)
 
 Download for [Helm 3](https://github.com/helm/helm/releases/tag/v3.0.0-beta.5)
-
-
 
 
