@@ -1,6 +1,6 @@
 # redis-helm
 
-Deploy a single node Redis master to Kubernetes using [Helm 3](https://helm.sh/).
+Deploy a single node [Redis](https://redis.io/) master to [Kubernetes](https://kubernetes.io/) using [Helm 3](https://helm.sh/).
 
 ## Configuring your own deployment
 
@@ -14,7 +14,7 @@ The `KUBE_CONFIG` should be a full copy of your `~/.kube/config`.
 
 I used the free tier from  [kuber.host](https://kuber.host/). I'm not affiliated with them. I found out about them from the list on [free-for-dev](https://github.com/ripienaar/free-for-dev)
 
-I like that it is free, you don't provide a credit card, it is quick and easy to get your namespace, and the UI is pretty.
+I like that it is free and you don't provide a credit card. It is quick and easy to get your namespace and Kube Config.
 
 ## Other resources
 
