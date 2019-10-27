@@ -1,6 +1,6 @@
 # redis-helm
 
-![](https://github.com/hmatt1/redis-helm/workflows/.github/workflows/deploy.yml/badge.svg)
+![Deploy](https://github.com/hmatt1/redis-helm/workflows/.github/workflows/deploy.yml/badge.svg)
 
 Deploy a single node [Redis](https://redis.io/) master to [Kubernetes](https://kubernetes.io/) using [Helm 3](https://helm.sh/).
 
