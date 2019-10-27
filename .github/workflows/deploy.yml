@@ -23,5 +23,6 @@ jobs:
         /opt/hostedtoolcache/helm/3.0.0-beta.5/x64/linux-amd64/helm upgrade --atomic --set password=${MY_PASSWORD} -f values.yaml redis-release stable/redis
       env:
         KUBECONFIG: /home/runner/config
+        NAMESPACE: ${{ secrets.KUBE_NAMESPACE }}  
         SECRET_CONFIG: ${{ secrets.KUBE_CONFIG }}
         MY_PASSWORD: ${{ secrets.REDIS_PASSWORD }}
